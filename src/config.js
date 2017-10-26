@@ -12,7 +12,7 @@ const environment = {
 
 module.exports = Object.assign({
   host: process.env.HOST || 'localhost',
-  port: process.env.PORT,
+  port: process.env.PORT || 3000,
   apiUrl: config.get('apiUrl'),
   apiHost: process.env.APIHOST || 'localhost',
   apiPort: process.env.APIPORT,
